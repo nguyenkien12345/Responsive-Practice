@@ -1,0 +1,43 @@
+/* Nếu không khai báo Keywords thì mặc định là only */
+/* @media screen {
+    h1 {
+        color: red;
+        font-weight: bold;
+    }
+} */
+
+
+/* Chỉ áp dụng css cho chế độ in */
+/* @media only print {
+    h1 {
+        color: yellow;
+        font-weight: bold;
+    }
+} */
+
+
+/* Chỉ áp dụng css cho chế độ màn hình */
+/* @media only screen {
+    h1 {
+        color: red;
+        font-weight: bold;
+    }
+} */
+
+
+/* Nếu màn hình lớn hơn hoặc bằng 1024px thì apply css */
+/* @media screen and (min-width:1024px){
+    h1 {
+        color: red;
+        font-weight: bold;
+    }
+} */
+
+
+/* Nếu màn hình nhỏ hơn hoặc bằng 1024px thì apply css */
+/* @media screen and (max-width: 1024px){
+    h1 {
+        color: red;
+        font-weight: bold;
+    }
+} */

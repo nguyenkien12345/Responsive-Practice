@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediaQuery(@media)</title>
+    <!-- Cách 1: Responsive cho cả mobile và pc trong 1 file css -->
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+
+    <!-- Cách 2: Responsive cho mobile trong 1 file css riêng và pc trong 1 file css riêng -->
+    <!-- PC (Nếu màn hình lớn hơn hoặc bằng 1024px) thì áp dụng file ./style1.css -->
+    <!-- <link rel="stylesheet" media="(min-width:1024px)" href="./style1.css"> -->
+    <!-- Mobile (Nếu màn hình nhỏ hơn hoặc bằng 740px) thì áp dụng file ./style2.css -->
+    <!-- <link rel="stylesheet" media="(max-width:740px)" href="./style2.css"> -->
+    
+    <!-- respond.min.js: Giúp cho những trình duyệt cũ không hỗ trợ MediaQuery(@media) có thể sử dụng MediaQuery(@media) -->
+    <!-- 
+        Nếu trình duyệt IE nhỏ hơn hoặc bằng 9 đổ xuống thì nó sẽ hiển thị ra link script, ngược lại mặc định không hiển thị. Đoạn script được gọi là polyfill
+    -->
+    <!--[if lte IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js" integrity="sha512-qWVvreMuH9i0DrugcOtifxdtZVBBL0X75r9YweXsdCHtXUidlctw7NXg5KVP3ITPtqZ2S575A0wFkvgS2anqSA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <![endif]-->
+
+</head>
+<body>
+    <h1>Responsive Web Design</h1>
+</body>
+</html>

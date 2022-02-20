@@ -1,0 +1,23 @@
+@media not|only mediatype and(mediafeature and|or|not mediafeature){
+    Css-Code
+}
+
+1) Keywords:
+- not: loại trừ, ngoại trừ
+- only: chỉ với 1 thằng nào đó
+- and: và
+- or: hoặc
+
+2)  Mediatypes: (Những trường hợp ta muốn css)
+- print:  chỉ áp dụng css cho chế độ in
+- screen: chỉ áp dụng css cho chế độ màn hình
+- speech: chỉ áp dụng css cho chế độ màn hình nói được (thường sử dụng cho người khuyết tật)
+- all-default: Nếu không khai báo Mediatypes thì nó sẽ mặc định áp dụng cho cả print, screen, speech
+
+3) Media Features: Nó là những cái value để giúp các bạn có thể lựa chọn ra các trường hợp cụ thể để Css
+- min-width
+- max-width
+- ...
+
+4) Polyfill?
+- Giúp các bạn sử dụng được cái thuộc tính MediaQuery(@media) cho những trình duyệt cũ không hỗ trợ MediaQuery(@media)
